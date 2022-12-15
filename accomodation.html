@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Accommodation</title>
+
+	<!-- Мои стили -->
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- Tailwind CDN -->
+	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+	<!-- Для шушл шрифтов -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<!-- Шрифт для лого -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+	<!-- Шрифт для всего -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="flex flex-col h-screen justify-between">
+
+	<!-- Хедер -->
+	<header class="grid grid-cols-12 shadow-lg">
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+		<!-- Навигация -->
+		<div class="flex flex-row justify-between col-span-8">
+			<!-- Логотип -->
+			<div class="noselect flex flex-col justify-center m-2 text-center border-black border-2 p-1">
+				<p class="text-3xl" style="font-family: Merriweathe;">Visit Russia</p>
+			</div>
+			<!-- Меню -->
+			<div class="flex flex-col justify-center col-span-5 text-center p-1" style="font-family: Oswald; font-weight: 200">
+				<ul class="flex flex-row">
+					<li class="m-2">
+						<a href="./index.html" class="noselect hover:underline text-xl">Home</a>
+					</li>
+					<li class="m-2">
+						<a href="./accomodation.html" class="noselect underline text-xl">Accomodation</a>	
+					</li>
+					<li class="m-2">
+						<a href="./food.html" class="noselect hover:underline text-xl">Food</a>	
+					</li>
+					<li class="m-2">
+						<a href="./language.html" class="noselect hover:underline text-xl">Language</a>
+					</li>
+					<li class="m-2">
+						<a href="./transport.html" class="noselect hover:underline text-xl">Transport</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+	</header>
+
+	<!-- Тело сайта -->
+	<div class="grid grid-cols-12 mb-auto mt-5 p-1">
+		<div class="col-span-2"></div>
+		<!-- Контент -->
+		<div class="flex flex-col col-span-8 p-1" style="font-family: Oswald; font-weight: 300">
+
+			<!-- Вступление -->
+			<div class="flex flex-col mt-3 items-center">
+				<h1 class="text-3xl m-3">Accommodation</h1>
+				<img class="max-w-xs rounded-lg shadow-lg" src="https://media.timbu.com/img/h1408187/400/280/b1/hotel-%22%22sport-time%22%22-1408187-1.jpg" alt="">
+				<p class="text-xl m-3">
+					One of the most important parts of any trip, and one that often makes up half the cost of the trip, is the choice of accommodation. Good accommodations can make your trip memorable, while bad accommodations can ruin it entirely.
+				</p>
+				<p class="text-xl m-3">
+					By the end of 2019, international hotel chains boasted a total of 150 hotels in Russia with over 33,000 hotel rooms!
+				</p>
+			</div>
+
+			<!-- Отели -->
+			<div class="grid grid-cols-3 gap-4 mt-6">
+
+				<div>
+					<!-- 1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://api.premiumhotelrostov.ru/uploads/hotel_1_7b78ee149a.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Hyatt Regency Rostov-on-Don</h2>
+							<p class="text-stone-700 mb-2">Большая Садовая ул., 121, Ростов-на-Дону, Ростовская обл., 344022</p>
+							<p class="text-stone-700 mb-2">Phone: 8 (863) 238-12-34</p>
+							<a href="https://premiumhotelrostov.ru/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<div class="bg-white rounded-lg shadow-lg mt-2">
+						<img src="https://rasputinhotel.ru/local/templates/rasputin/assets/img/images/xhome-slider.jpg.pagespeed.ic.w_gGZ3doCs.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Термальный источник Распутин</h2>
+							<p class="text-stone-700 mb-2">Address: ул. Шевченко, 88, Мостовской, Краснодарский край, 352570</p>
+							<p class="text-stone-700 mb-2">Phone: +8 (918) 333-39-90</p>
+							<a href="https://rasputinhotel.ru/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+
+				</div>
+
+				<div>
+					<!-- 1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/6/67/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E_%D0%BE%D1%82_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB%D0%B0_%D1%81_%D0%9B%D0%B8%D0%B3%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Гостиница "Октябрьская"</h2>
+							<p class="text-stone-700 mb-2">Address: Лиговский пр., 10/118, Санкт-Петербург, 191036</p>
+							<p class="text-stone-700 mb-2">Phone: +8 (812) 380-19-18</p>
+							<a href="http://www.oktober-hotel.spb.ru/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<div class="bg-white rounded-lg shadow-lg mt-2">
+						<img src="https://princeparkhotel.ru/upload/iblock/060/001o2jl5mn979few3h6jwyl3o41pyfcj.jpg" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Принц Парк Отель</h2>
+							<p class="text-stone-700 mb-2">Address: Новоясеневский пр., 1Б, корпус 1, Москва, 117574</p>
+							<p class="text-stone-700 mb-2">Phone: 8 (495) 987-30-00</p>
+							<a href="http://princeparkhotel.ru/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<!-- 1 -->
+					<div class="bg-white rounded-lg shadow-lg">
+						<img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/102785634.jpg?k=5c668818e21be9fcf31fe4f0ad676e9293658e8763e597d204d3e40f2d25425c&o=&hp=1" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Гостевой дом Русская изба</h2>
+							<p class="text-stone-700 mb-2">Address: ул. Гастева, д.34, Суздаль, Владимирская обл., 601293</p>
+							<p class="text-stone-700 mb-2">Phone: +8 (920) 937-41-30</p>
+							<a href="https://suzdalizba.business.site/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<div class="bg-white rounded-lg shadow-lg mt-2">
+						<img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/293901810.jpg?k=fd38a0365e73abd01dee1d169f545eaf6c4ae3e4e3ea2971415fdc8cf1a584c5&o=&hp=1" alt="" class="rounded-t-lg">
+						<div class="px-4 text-left">
+							<h2 class="font-bold mb-2 text-2xl text-stone-900 pt-3">Парк-отель Доброград</h2>
+							<p class="text-stone-700 mb-2">Address: Доброград, Гороженово, Владимирская обл., 601967</p>
+							<p class="text-stone-700 mb-2">Phone: +8 (800) 600-80-50</p>
+							<a href="https://dobrograd-hotel.ru/">
+								<button type="button" class="mt-1 mb-3 focus:outline-none text-white bg-black hover:bg-black focus:ring-4 focus:ring-black font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-black dark:hover:bg-black dark:focus:ring-stone-900">Details</button>
+							</a>	
+						</div>
+					</div>
+				</div>
+		
+			</div>
+
+		</div>
+		<div class="col-span-2"></div>		
+	</div>
+
+</body>
+
+</html>
