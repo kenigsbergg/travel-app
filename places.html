@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Transport</title>
+
+	<!-- Мои стили -->
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- Tailwind CDN -->
+	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+	<!-- Для шушл шрифтов -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<!-- Шрифт для лого -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+	<!-- Шрифт для всего -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="flex flex-col h-screen justify-between">
+
+	<!-- Хедер -->
+	<header class="grid grid-cols-12 shadow-lg">
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+		<!-- Навигация -->
+		<div class="flex flex-row justify-between col-span-8">
+			<!-- Логотип -->
+			<div class="noselect flex flex-col justify-center m-2 text-center border-black border-2 p-1">
+				<p class="text-3xl" style="font-family: Merriweathe;">Visit Russia</p>
+			</div>
+			<!-- Меню -->
+			<div class="flex flex-col justify-center col-span-5 text-center p-1" style="font-family: Oswald; font-weight: 200">
+				<ul class="flex flex-row">
+					<li class="m-2">
+						<a href="./index.html" class="noselect text-xl hover:underline">Home</a>
+					</li>
+					<li class="m-2">
+						<a href="./accomodation.html" class="noselect text-xl hover:underline">Accomodation</a>	
+					</li>
+					<li class="m-2">
+						<a href="./food.html" class="noselect text-xl hover:underline">Food</a>	
+					</li>
+					<li class="m-2">
+						<a href="./language.html" class="noselect text-xl hover:underline">Language</a>
+					</li>
+					<li class="m-2">
+						<a href="./transport.html" class="noselect text-xl hover:underline">Transport</a>
+					</li>
+					<li class="m-2">
+						<a href="./places.html" class="noselect text-xl underline">Places to visit</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+	</header>
+
+	<!-- Тело сайта -->
+	<div class="grid grid-cols-12 mb-auto mt-5 p-1">
+		<div class="col-span-2"></div>
+		<!-- Контент -->
+		<div class="flex flex-col col-span-8 p-1" style="font-family: Oswald; font-weight: 300">
+			<!-- Вступление -->
+			<div class="flex flex-col">
+				<h1 class="text-3xl">Best Places to Visit in Russia</h1>
+				<p class="text-xl my-2">
+					The largest country in the world really has it all–mountains, valleys, frozen lands, and warm sands, and an incredible number of amazing natural destinations to impress any visitor.
+				</p>
+			</div>
+
+			<div class="flex flex-col mt-5">
+				<h1 class="text-3xl">Moscow</h1>
+				<p class="text-xl">
+					Visitors to Moscow usually start exploring in the center, where the Kremlin, Red Square, and the colorful St. Basil's Cathedral are located. The shopping mall GUM, with its glass and steel roof, is also a popular destination–even for tourists who can't afford the luxury brands sold here–and a great place to try authentic Russian food.
+				</p>
+				<p class="text-xl mt-2">
+					Moscow's Metro stations are a work of art in themselves, decorated with porcelain relief, crystal chandeliers, and unique mosaic artworks that make these places basically look like subterranean palaces. Mayakovskaya metro station, with its ceiling mosaics and pink rhodonite columns, and Kiyevskaya station, filled with white marble, frescoes and elaborate artworks, are two of the most stunning ones to visit.
+				</p>
+			</div>
+
+			<!-- right -->
+			<div class="grid grid-cols-8 mt-7 gap-4">
+				<div class="col-span-5 flex flex-col">
+					<h1 class="text-3xl">Lake Baikal</h1>
+					<p class="text-xl">
+						When it comes to breaking records, Lake Baikal is hard to beat. This massive high-altitude rift lake in Siberia is the oldest and deepest lake in the world–reaching a maximum depth of 1,642 meters and an estimated 25 million years of age. Baikal is also the largest freshwater lake in the world–over 20 percent of the world's freshwater is in this lake.
+					</p>
+				</div>
+				<img class="rounded-lg shadow-lg col-span-3"  src="https://www.planetware.com/wpimages/2019/10/russia-best-places-to-visit-lake-baikal.jpg" alt="">
+			</div>
+
+			<!-- left -->
+			<div class="grid grid-cols-8 mt-7 gap-4">
+				<img class="rounded-lg shadow-lg col-span-3"  src="https://www.planetware.com/wpimages/2019/10/russia-best-places-to-visit-petropavlovsk-kamchatsky.jpg" alt="">
+				<div class="col-span-5 flex flex-col">
+					<h1 class="text-3xl">Petropavlovsk-Kamchatsky</h1>
+					<p class="text-xl">
+					</p>
+				</div>
+			</div>
+
+			<!-- right -->
+			<div class="grid grid-cols-8 mt-7 gap-4">
+				<div class="col-span-5 flex flex-col">
+					<h1 class="text-3xl">Olkhon Island</h1>
+					<p class="text-xl">
+						Craggy cliffs and serene bays mark Olkhon Island’s coastline, the largest island in Lake Baikal. Tucked away in Siberia’s vast wilderness, it is an important shamanic site for the Buryat people who are indigenous to Siberia.
+					</p>
+				</div>
+				<img class="rounded-lg shadow-lg col-span-3"  src="https://www.planetware.com/wpimages/2019/10/russia-best-places-to-visit-olkhon-island.jpg" alt="">
+			</div>
+
+			<!-- left -->
+			<div class="grid grid-cols-8 mt-7 gap-4">
+				<img class="rounded-lg shadow-lg col-span-3"  src="https://img.theculturetrip.com/768x/smart/wp-content/uploads/2021/05/2a7bk0e.jpg" alt="">
+				<div class="col-span-5 flex flex-col">
+					<h1 class="text-3xl">Dargavs</h1>
+					<p class="text-xl">
+						In the Republic of North Ossetia-Alania, an ancient cemetery attached to the village of Dargavs remains, built into the dramatic, misty mountainside. Also called the City of the Dead, there are over a hundred stone tombs where villagers used to bury their dead along with their possessions and clothes.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-span-2"></div>		
+	</div>
+
+</body>
+
+</html>
