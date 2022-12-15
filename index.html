@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
-  </body>
+
+<head>
+	<title>Hello Bulma!</title>
+
+	<!-- Мои стили -->
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- Tailwind CDN -->
+	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+	<!-- Для шушл шрифтов -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<!-- Шрифт для лого -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+	<!-- Шрифт для всего -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="flex flex-col">
+
+	<!-- Хедер -->
+	<header class="grid grid-cols-12 gap-4 shadow-lg">
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+		<!-- Навигация -->
+		<div class="flex flex-row justify-between col-span-8">
+			<!-- Логотип -->
+			<div class="noselect flex flex-col justify-center m-2 text-center border-black border-2 p-1">
+				<p class="text-3xl" style="font-family: Merriweathe;">Visit Russia</p>
+			</div>
+			<!-- Меню -->
+			<div class="flex flex-col justify-center col-span-5 text-center" style="font-family: Oswald; font-weight: 300">
+				<ul class="flex flex-row">
+					<li class="m-2">
+						<a href="./index.html" class="noselect text-lg text-gray-500">Home</a>
+					</li>
+					<li class="m-2">
+						<a href="./accomodation.html" class="noselect text-lg hover:underline">Accomodation</a>	
+					</li>
+					<li class="m-2">
+						<a href="./food.html" class="noselect text-lg hover:underline">Food</a>	
+					</li>
+					<li class="m-2">
+						<a href="./language.html" class="noselect text-lg hover:underline">Language</a>
+					</li>
+					<li class="m-2">
+						<a href="./transport.html" class="noselect text-lg hover:underline">Transport</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Отступ -->
+		<div class="col-span-2"></div>
+	</header>
+
+
+</body>
+
 </html>
